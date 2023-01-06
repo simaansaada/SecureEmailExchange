@@ -12,7 +12,10 @@ namespace MailServer
         static void Main(string[] args)
         {
             Console.WriteLine("Starting the mail server...");
-            MailServerBuilder();
+            Camelia128CFB cammelia = new Camelia128CFB("cipherkey");
+            Console.WriteLine(cammelia.Encrypt("text"));
+            Console.ReadLine();
+            //MailServerBuilder();
         }
 
         static void MailServerBuilder()

@@ -30,5 +30,6 @@ namespace Cryptography
             EmailMessage result = (EmailMessage)b.Deserialize(s);
             return result;
         }
+     
     }
 }

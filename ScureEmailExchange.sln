@@ -5,9 +5,14 @@ VisualStudioVersion = 16.0.32510.428
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailClient", "MailClient\MailClient.csproj", "{097A6FC2-5DDF-4266-9C4F-02ABEFD9035A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailServer", "MailServer\MailServer.csproj", "{18281815-217D-46FD-A582-4D9B75D40B00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailServer", "MailServer\MailServer.csproj", "{18281815-217D-46FD-A582-4D9B75D40B00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptography", "Cryptography\Cryptography.csproj", "{194E0210-9FB2-4886-B152-55079CFDC75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cryptography", "Cryptography\Cryptography.csproj", "{194E0210-9FB2-4886-B152-55079CFDC75F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3A7C5DAF-0C58-45BB-A4E2-3CBC78B3F4AA}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
